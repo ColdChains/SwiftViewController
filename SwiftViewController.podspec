@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftViewController"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "SwiftViewController contains BaseViewController WebViewController NavigationBar NavigationBarController TabBarController "
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "BaseViewController/**/*.swift"
+  spec.source_files  = "SwiftViewController/**/*.swift"
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "5.6"
   
@@ -107,7 +107,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "BaseViewController/**/*.png"
+  spec.resources = "SwiftViewController/**/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
