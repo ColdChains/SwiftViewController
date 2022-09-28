@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftBaseKit
 
 open class TabBarController: UITabBarController {
     

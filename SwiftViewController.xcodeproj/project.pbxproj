@@ -30,8 +30,6 @@
 		18A9571028E3EA43009E37C0 /* icon_navigation_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9570328E3EA43009E37C0 /* icon_navigation_back@3x.png */; };
 		18A9571128E3EA43009E37C0 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9570528E3EA43009E37C0 /* ProgressView.swift */; };
 		18A9571228E3EA43009E37C0 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9570628E3EA43009E37C0 /* NavigationBar.swift */; };
-		18A9571328E3EA43009E37C0 /* BaseHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9570728E3EA43009E37C0 /* BaseHeader.swift */; };
-		18A9571428E3EA43009E37C0 /* BaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9570828E3EA43009E37C0 /* BaseConfig.swift */; };
 		6C1E176161C901B0F9A47CAC /* Pods_SwiftViewController_SwiftViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A8DA82FDAE44B44267FEFE /* Pods_SwiftViewController_SwiftViewControllerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,8 +80,6 @@
 		18A9570328E3EA43009E37C0 /* icon_navigation_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_navigation_back@3x.png"; sourceTree = "<group>"; };
 		18A9570528E3EA43009E37C0 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		18A9570628E3EA43009E37C0 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
-		18A9570728E3EA43009E37C0 /* BaseHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseHeader.swift; sourceTree = "<group>"; };
-		18A9570828E3EA43009E37C0 /* BaseConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseConfig.swift; sourceTree = "<group>"; };
 		3CD676E77A43D98006223898 /* Pods-SwiftViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftViewController.debug.xcconfig"; path = "Target Support Files/Pods-SwiftViewController/Pods-SwiftViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		47E8CFFE729688CD2A5216C9 /* Pods-SwiftViewController-SwiftViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftViewController-SwiftViewControllerTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftViewController-SwiftViewControllerTests/Pods-SwiftViewController-SwiftViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
 		658867FA5C884419E1D97E5D /* Pods-SwiftViewController-SwiftViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftViewController-SwiftViewControllerTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftViewController-SwiftViewControllerTests/Pods-SwiftViewController-SwiftViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,8 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				18A956CB28E3E87C009E37C0 /* SwiftViewController.h */,
-				18A9570828E3EA43009E37C0 /* BaseConfig.swift */,
-				18A9570728E3EA43009E37C0 /* BaseHeader.swift */,
 				18A956FA28E3EA43009E37C0 /* Controller */,
 				18A956FF28E3EA43009E37C0 /* Image */,
 				18A9570428E3EA43009E37C0 /* View */,
@@ -496,8 +490,6 @@
 				18A9571228E3EA43009E37C0 /* NavigationBar.swift in Sources */,
 				18A956CD28E3E87C009E37C0 /* SwiftViewController.docc in Sources */,
 				18A9571128E3EA43009E37C0 /* ProgressView.swift in Sources */,
-				18A9571428E3EA43009E37C0 /* BaseConfig.swift in Sources */,
-				18A9571328E3EA43009E37C0 /* BaseHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

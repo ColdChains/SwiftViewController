@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import SwiftBaseKit
 
 open class ViewController: UIViewController {
     
@@ -171,4 +172,14 @@ extension ViewController: NavigationBarDelegate {
         }
     }
 
+}
+
+extension NSObject {
+    
+    func printLog(_ any: Any? = nil) {
+        #if DEBUG
+            print("\(self) \(any ?? "")")
+        #endif
+    }
+    
 }

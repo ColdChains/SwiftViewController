@@ -7,6 +7,7 @@
 
 import UIKit
 import WebKit
+import SwiftBaseKit
 
 open class WebViewController: ViewController {
     

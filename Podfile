@@ -7,7 +7,7 @@ target 'SwiftViewController' do
 
   # Pods for SwiftViewController
   pod 'SnapKit', '>= 4.2.0'
-#  pod 'Swift.Base'
+  pod 'SwiftBaseKit'
 
   target 'SwiftViewControllerTests' do
     # Pods for testing
@@ -21,6 +21,6 @@ target 'SwiftViewControllerDemo' do
 
   # Pods for SwiftViewControllerDemo
   pod 'SnapKit', '>= 4.2.0'
-#  pod 'Swift.Base'
+  pod 'SwiftBaseKit'
   
 end
