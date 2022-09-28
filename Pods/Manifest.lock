@@ -1,0 +1,33 @@
+PODS:
+  - SnapKit (5.6.0)
+  - Swift.Base (0.0.3):
+    - Swift.Base/Adapter (= 0.0.3)
+    - Swift.Base/Config (= 0.0.3)
+    - Swift.Base/Constant (= 0.0.3)
+    - Swift.Base/Extension (= 0.0.3)
+  - Swift.Base/Adapter (0.0.3):
+    - Swift.Base/Config
+    - Swift.Base/Constant
+    - Swift.Base/Extension
+  - Swift.Base/Config (0.0.3):
+    - Swift.Base/Extension
+  - Swift.Base/Constant (0.0.3):
+    - Swift.Base/Config
+  - Swift.Base/Extension (0.0.3)
+
+DEPENDENCIES:
+  - SnapKit (>= 4.2.0)
+  - Swift.Base
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - Swift.Base
+
+SPEC CHECKSUMS:
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Swift.Base: a15be5161803667e2f2759d298b43e923e22c8c3
+
+PODFILE CHECKSUM: 5e2cb917cb1775b5f524e3228717e72751c748fe
+
+COCOAPODS: 1.11.2
