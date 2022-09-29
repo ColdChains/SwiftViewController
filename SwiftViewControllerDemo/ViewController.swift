@@ -17,7 +17,6 @@ class ViewController: SwiftViewController.ViewController {
         BaseConfig.shared.navigationTitleColor = .orange
         
         showNavigationBar = true
-        navigationBar?.leftItem = nil
         navigationBar?.titleLabel?.text = "Hello"
         
     }

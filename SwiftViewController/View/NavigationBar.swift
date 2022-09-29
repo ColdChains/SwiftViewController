@@ -129,7 +129,9 @@ open class NavigationBar: UIView {
 
     /// 分割线 默认显示
     open lazy var dividerView: UIView = {
-        return UIView()
+        let view = UIView()
+        view.backgroundColor = BaseConfig.shared.dividerColor
+        return view
     }()
 
     /// 右侧按钮右侧的间距 默认0
@@ -184,7 +186,11 @@ open class NavigationBar: UIView {
         let button = UIButton()
         button.titleLabel?.font = BaseConfig.shared.navigationTitleFont
         button.setTitleColor(BaseConfig.shared.navigationTitleColor, for: .normal)
-        button.setImage(BaseConfig.shared.backButtonImage, for: .normal)
+        if #available(iOS 13.0, *) {
+            button.setImage(BaseConfig.shared.backButtonImage ?? UIImage(named: "icon_navigation_back@3x", in: Bundle(for: NavigationBar.self), with: nil), for: .normal)
+        } else {
+            button.setImage(BaseConfig.shared.backButtonImage ?? UIImage(named: "icon_navigation_back@3x", in: Bundle(for: NavigationBar.self), compatibleWith: nil), for: .normal)
+        }
         button.addTarget(self, action: #selector(leftItemAction(_:)), for: .touchUpInside)
         leftItem = button
     }
@@ -193,7 +199,11 @@ open class NavigationBar: UIView {
     open func addCloseItem() {
         let button = UIButton()
         button.titleLabel?.font = BaseConfig.shared.navigationTitleFont
-        button.setImage(BaseConfig.shared.closeButtonImage, for: .normal)
+        if #available(iOS 13.0, *) {
+            button.setImage(BaseConfig.shared.closeButtonImage ?? UIImage(named: "icon_navigation_close@3x", in: Bundle(for: NavigationBar.self), with: nil), for: .normal)
+        } else {
+            button.setImage(BaseConfig.shared.closeButtonImage ?? UIImage(named: "icon_navigation_close@3x", in: Bundle(for: NavigationBar.self), compatibleWith: nil), for: .normal)
+        }
         button.addTarget(self, action: #selector(closeItemAction(_:)), for: .touchUpInside)
         button.isHidden = true
         closeItem = button

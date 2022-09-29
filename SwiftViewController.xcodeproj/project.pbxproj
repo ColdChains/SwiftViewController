@@ -148,8 +148,8 @@
 			children = (
 				18A956CB28E3E87C009E37C0 /* SwiftViewController.h */,
 				18A956FA28E3EA43009E37C0 /* Controller */,
-				18A956FF28E3EA43009E37C0 /* Image */,
 				18A9570428E3EA43009E37C0 /* View */,
+				18A956FF28E3EA43009E37C0 /* Image */,
 				18A956CC28E3E87C009E37C0 /* SwiftViewController.docc */,
 			);
 			path = SwiftViewController;
